@@ -8,5 +8,8 @@
 #pragma once
 #include "image.hpp"
 
-
+class ImageConvertor
+{
+    
+};
 

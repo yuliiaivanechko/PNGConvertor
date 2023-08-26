@@ -1,0 +1,14 @@
+# Ignore compiled binaries and build artifacts
+*.o
+*.out
+*.exe
+/build/
+
+# Ignore Xcode project files
+*.xcodeproj/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore user-specific files
+/user_config.json

@@ -7,5 +7,20 @@
 
 #pragma once
 
+#include <iostream>
 
 
+class Image {
+public:
+    Image(int width, int height);
+    ~Image();
+
+    void setPixel(int x, int y, unsigned char r, unsigned char g, unsigned char b);
+    void saveAsPNG(const std::string& filename);
+    void saveAsJPEG(const std::string& filename, int quality);
+
+private:
+    int width;
+    int height;
+    unsigned char* pixelData; // Raw pixel data
+};
