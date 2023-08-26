@@ -9,7 +9,10 @@
 #include <iostream>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    if (argc != 4) {
+        std::cerr << "Usage: " << argv[0] << " <input_image> <output_image> <format>" << std::endl;
+        return 1;
+    }
     return 0;
 }
