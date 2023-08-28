@@ -8,7 +8,8 @@
 #pragma once
 
 #include <iostream>
-
+#include "png.h"
+#include "jpeglib.h"
 
 class Image {
 public:
